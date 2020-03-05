@@ -1,0 +1,61 @@
+
+
+
+----------| ./index.js |----------
+|
+
+<-------
+const jsonfile = {
+  readFile,
+  readFileSync,
+  writeFile,
+  writeFileSync
+}
+
+module.exports = jsonfile
+--------
+
+module.exports.readFile = readFile;
+module.exports.readFileSync = readFileSync
+module.exports.writeFile = writeFile
+module.exports.writeFileSync = writeFileSync
+
+const defaultExport = {readFile, readFileSync,writeFile,writeFileSynce}
+--------
+
+export {readFile}
+export {readFileSync}
+export {writeFile}
+export {writeFileSync}
+
+export default {readFile, readFileSync, writeFile, writeFileSync}
+------->
+
+|
+__________________________________________________
+
+
+
+
+
+----------| ./utils.js |----------
+|
+
+<-------
+module.exports = { stringify, stripBom }
+
+--------
+
+export {stringify}
+export {stripBom}
+
+export default { stringify, stripBom }
+------->
+
+|
+__________________________________________________
+
+
+
+
+

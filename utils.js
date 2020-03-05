@@ -12,4 +12,7 @@ function stripBom (content) {
   return content.replace(/^\uFEFF/, '')
 }
 
-module.exports = { stringify, stripBom }
+export {stringify}
+export {stripBom}
+
+export default { stringify, stripBom }

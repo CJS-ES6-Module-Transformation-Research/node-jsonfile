@@ -74,11 +74,12 @@ function writeFileSync (file, obj, options = {}) {
   return fs.writeFileSync(file, str, options)
 }
 
-const jsonfile = {
-  readFile,
-  readFileSync,
-  writeFile,
-  writeFileSync
-}
 
-module.exports = jsonfile
+
+export {readFile}
+export {readFileSync}
+export {writeFile}
+export {writeFileSync}
+
+export default {readFile, readFileSync, writeFile, writeFileSync}
+

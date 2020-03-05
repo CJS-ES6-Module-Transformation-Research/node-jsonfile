@@ -17,6 +17,7 @@
   "author": "JP Richardson <jprichardson@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "esm": "^3.2.25",
     "universalify": "^0.2.0"
   },
   "optionalDependencies": {
