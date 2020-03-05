@@ -5,7 +5,7 @@ try {
   _fs = require('fs')
 }
 const universalify = require('universalify')
-const { stringify, stripBom } = require('./utils')
+const { stringify, stripBom } = require('./utils.js')
 
 async function _readFile (file, options = {}) {
   if (typeof options === 'string') {
