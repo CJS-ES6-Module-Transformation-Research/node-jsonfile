@@ -1,7 +1,7 @@
-let _fs = require('fs')
+import _fs from 'fs'
 
-const universalify = require('universalify')
-const { stringify, stripBom } = require('./utils.js')
+import universalify from 'universalify'
+import { stringify, stripBom } from './utils.js'
 
 async function _readFile (file, options = {}) {
   if (typeof options === 'string') {

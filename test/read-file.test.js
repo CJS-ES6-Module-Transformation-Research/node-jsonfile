@@ -1,9 +1,9 @@
-const assert = require('assert')
-const fs = require('fs')
-const os = require('os')
-const path = require('path')
-const rimraf = require('rimraf')
-const jf = require('../index.js')
+import assert from 'assert'
+import fs from 'fs'
+import os from 'os'
+import path from 'path'
+import rimraf from 'rimraf'
+import jf from '../index.js'
 
 /* global describe it beforeEach afterEach */
 
